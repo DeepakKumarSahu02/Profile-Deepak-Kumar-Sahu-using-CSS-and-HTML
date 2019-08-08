@@ -1,0 +1,172 @@
+/*CSS for Front Cover Part*/
+.front-cover{
+	margin-top:20px;
+	height:620px;
+	background-color:#0EB2BD;
+}
+body{
+	background-color:#E5F7FC;
+}
+#cover-profile{
+	height:120px;
+	width:120px;
+	border-radius:50%;
+	position:absolute;
+	top:100px;
+	left:-85px;
+	border:10px solid #E5F7FC;
+	border-color:#E5F7FC;
+}
+.picture-back-line{
+	width:50px;
+}
+#spiral{
+	width:150px;
+	height:620px;
+	margin-top:20px;
+}
+#profile-name{
+	font-size:50px;
+	color:White;
+	font-weight:bold;
+}
+.profile-name-below{
+	color:white;
+}
+.right-cover{
+	position:relative;
+}
+#transparent-cover{
+	height:auto;
+	width:100%;
+	opacity:0.15;
+	border-radius:10px;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	filter:blur(5px);
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.right-cover:hover #transparent-cover{
+	opacity:0.1;
+}
+.pointing{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.right-cover:hover .pointing{
+	opacity:1;
+}
+.cover-contact{
+	float:right;
+	color:white;
+}
+.text{
+	color:white;
+}
+/*CSS for Back Resume Part*/
+.cover{
+	height:200px;
+	margin-top:1%;
+	margin-left:2%;
+	margin-right:2%;
+	background-color:#0EB2BD;
+	border-radius:5px 5px 0px 0px;
+}
+.cover-inner{
+	width:470px;
+	color:white;
+	padding:10px;
+	/*background-color:red;*/
+}
+.cover-below{
+	min-height:10px;
+	margin-left:2%;
+	margin-right:2%;
+	border:1px solid #0EB2BD;
+	border-radius:0px 0px 5px 5px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#profileName{
+	padding-left:10px;
+	padding-bottom:1px;
+	font-size:50px;
+	/*color:white;*/
+	font-weight:bold;
+}
+#cover-line{
+	/*background-color:white;*/
+	width:450px;
+	/*height:5px;*/
+	text-align:left;
+}
+.icon{
+	padding-left:10px;
+}
+#profile-picture{
+	height:190px;
+	width:150px;
+	position:absolute;
+	left:1140px;
+	top:50px;
+	border:3px solid #0EB2BD;
+}
+.Sub-heading{
+	margin-left:10px;
+	font-size:30px;
+	font-weight:bold;
+	color:#0EB2BD;
+	text-decoration:underline dotted #0EB2BD;
+}
+.data-content{
+	margin-left:15px;
+}
+.academic-details{
+	width:400px;
+	min-height:20px;
+	/*background-color:red;*/
+	float:left
+}
+.personal-details{
+	width:400px;
+	min-height:100px;
+	/*background-color:red;*/
+	float:right;
+	margin-top:50px;
+}
+.manage-div{
+	clear:both;
+}
+.personal-panel-up{
+	width:92.5%;
+	min-height:10%;
+	background-color:#0EB2BD;
+	margin-left:5%;
+	margin-top:50px;
+	color:white;
+	text-align:center;
+	padding-top:1%;
+	padding-bottom:1%;
+	font-size:20px;
+	font-weight:bold;
+	border-radius:5px 5px 0px 0px;
+}
+.personal-panel-down{
+	width:90%;
+	height:80%;
+	border:1px solid #0EB2BD;
+	margin-left:5%;
+	padding:1%;
+	border-radius:0px 0px 5px 5px;
+}
+.div1{
+	width:100px;
+	height:100px;
+	background-color:red;
+}
